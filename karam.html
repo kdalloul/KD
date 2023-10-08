@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARAM forms</title>
+    <style>
+        div {
+            width: 80px;
+        }
+    </style>
+</head>
+</body>
+<h1>INFORMATIONS AREA</h1>
+<form action="#" method="post" autocomplete="on"></form>
+<fieldset>
+    <legend>LOGIN</legend>
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" name="us" id="username">
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="ps" id="password">
+    </div>
+</fieldset>
+<fieldset>
+    <legend>OPTIONS CHOOSING</legend>
+    <div>
+        Gender: <br>
+        <input type="radio" name="gender" id="female" value="f" checked>
+        <label for="female">أنثى</label>
+        <br>
+        <input type="radio" name="gender" id="male" value="m">
+        <label for="male">ذكر</label>
+        <div>
+            Fav food: <br>
+            <input type="checkbox" name="p" id="pizza" checked>
+            <label for="pizza">pizza</label>
+        </div>
+        <div>
+            <label for="city">city:</label>
+            <select name="c" id="city" multiple>
+                <optgroup label="سوريا">
+                    <option value="d">دمشق</option>
+                    <option value="a">حلب</option>
+                    <option value="t">طرطوس</option>
+                    <option value="h">حمص</option>
+                    <option value="d">دير الزور</option>
+                    <option value="w">حماة</option>
+                </optgroup>
+            </select>
+        </div>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>EXTRA</legend>
+    <div>
+        <label for="email">user email:</label>
+        <input type="email" name="e" id="email">
+    </div>
+    <div>
+        <label for="Age">Age:</label>
+        <input type="number" name="a" id="Age" min="18" max="60" step="1">
+    </div>
+    <div>
+        <label for="tel">tel:</label>
+        <input type="tel" name="t" id="tel">
+    </div>
+    <div>
+        <label for="color">Fav color:</label>
+        <input type="color" name="color" id="color">
+    </div>
+    <div>
+        <label for="bdate">Birth date:</label>
+        <input type="date" name="bdate" id="bdtae" max="2000-01-01" min="1960-01-01">
+    </div>
+
+
+</fieldset>
+
+</html>

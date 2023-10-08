@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        div{
+            margin: 20px;
+        }
+    </style>
+    <title>forms</title>
 </head>
 <body>
-    <a href="./basic.html#id5">back to basics</a>
+    <form action="" method="post" novalidate>
+        <fieldset>
+            <legend>login</legend>
+            <div>
+                <label for="username">username:</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div>
+                <label for="password">password</label>
+                <input type="password" name="password" id="password">
+            </div>
+        </fieldset>
+    
 </body>
 </html>
